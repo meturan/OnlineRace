@@ -13,6 +13,30 @@
     </script>
   </head>
   <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyC6G8zloaA9T6P1b4PT11KlCMIoZ2PRZi0",
+    authDomain: "onlinerace-9720b.firebaseapp.com",
+    projectId: "onlinerace-9720b",
+    storageBucket: "onlinerace-9720b.appspot.com",
+    messagingSenderId: "14981779289",
+    appId: "1:14981779289:web:22a59c762ec318b2f14648",
+    measurementId: "G-QCKJ2HBBVR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
